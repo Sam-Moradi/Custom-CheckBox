@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  flex: 1;
+  margin: 1rem;
+  border: 2px solid rgb(160, 160, 160);
+  border-radius: 8px;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 1rem;
+  flex: 1;
+}
+.wrapper {
+  width: 95%;
+}
+.other {
+  width: 100%;
+  align-self: center;
+}
+hr {
+  height: 1;
+  display: block;
+  width: 100%;
+}
